@@ -1,0 +1,16 @@
+Intâcia da classe:
+
+diretorio = Path(r"C:\home\valcann\backupsFrom")
+executar = Arquivos(diretorio)
+
+
+
+Q1 - Listar todos arquivos (nome, tamanho, data de criação, data da última modificação)
+localizados no caminho /home/valcann/backupsFrom;
+
+executar.extrai_info_arquivos( Path(caminho do diretório) ) -
+- Retorna uma lista de objetos contendo 
+
+Q2 - Salvar o resultado no arquivo backupsFrom.log em /home/valcann/;
+
+executar.escreve_em_arquivo(lista_dados,Path(r"C:\home\valcann\backupFrom.log"))
