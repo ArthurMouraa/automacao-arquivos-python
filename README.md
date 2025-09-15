@@ -1,6 +1,6 @@
 
 
-## 📌 Desafio Proposto  
+#  Desafio Proposto  
 **Problema 1 | Automação de Ambientes Operacionais**
 
 Um dos principais desafios para o gerenciamento de infraestrutura é implementar automação para permitir maior produtividade aos times de tecnologia, além de minimizar ações humanas nos ambientes dos clientes.  
@@ -24,7 +24,7 @@ Para reduzir a intervenção manual, foi solicitado o desenvolvimento de um **sc
 
 ---
 
-## 🚀 Solução Implementada  
+## Solução Implementada  
 
 O código foi desenvolvido em **Python 3** utilizando a biblioteca padrão (`pathlib`, `datetime`, `shutil`).  
 Ele é organizado em uma classe chamada `Arquivos`, que contém métodos para:  
@@ -36,7 +36,7 @@ Ele é organizado em uma classe chamada `Arquivos`, que contém métodos para:
 
 ---
 
-## 📂 Guia rápido de uso 
+## Guia rápido de uso 
 
 
 **A classe Arquivos centraliza todas as operações.**
@@ -60,7 +60,7 @@ Lista todos os arquivos do diretório especificado e retorna informações como:
    - Copia arquivos recentes (com data de criação menor ou igual ao limite de dias) para outro diretório e registra em log.
 ---
 
-## 🛠️ Como Executar  
+##  Como Executar  
 
 1. Clone o repositório:
    ```bash
